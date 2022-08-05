@@ -13,3 +13,5 @@ function mergeArrays(arr1, arr2) {
     }
     return arr1.sort((a, b) => {return a - b})
 }
+
+console.log(mergeArrays([1,2], [4,5]))
