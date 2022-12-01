@@ -22,7 +22,7 @@ class Cat extends Animal {
         super(name, age, 4, 'cat', status);
     }
     introduce() {
-        return `${super.introduce()}  Meow meow!`; // можно наследовать вот так
+        return `${super.introduce()}  Meow meow!`;                                                // можно наследовать вот так
     }
 }
 
