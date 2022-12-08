@@ -1,7 +1,6 @@
 function generateName()
 {
-  let result = Math.random().toString(36).substring(2,6);
-  return result;
+    return Math.random().toString(36).substr(2,6);
 }
 
 console.log(generateName());
