@@ -6,11 +6,11 @@
 // returns newly created object
 
 Object.create = function(prototype, properties) {
-    if (prototype === undefined) throw new TypeError();
+    if (prototype === undefined) throw new TypeError;
     let obj = new Object;
-    obj.__proto__ = properties
-    if (prototype !== undefined) {
+    obj.__proto__ = prototype;
+    if (properties !== undefined) {
         Object.defineProperties(obj, properties);
     }
     return obj;
-  };
+};
